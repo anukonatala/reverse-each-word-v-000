@@ -1,12 +1,13 @@
 def reverse_each_word(string)
   array = string.split(' ')
-  revserString = ''
+  reverseString = ''
   array.each do |word|
-    string << word.reverse
+    reverseString << word.reverse
   end
   #array.collect do |word|
   #  word.reverse
   #end
+  reverseString
 end
 
 puts "#{reverse_each_word("Hello there, and how are you?")}"
