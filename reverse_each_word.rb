@@ -5,7 +5,7 @@ def reverse_each_word(string)
     reverseArray.push(word.reverse)
   end
   array.collect do |word|
-    reverseArray.push(word.reverse)
+    word.reverse
   end
   
   reverseArray.join(' ')
